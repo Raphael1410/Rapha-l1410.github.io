@@ -1,0 +1,142 @@
+/* importation de la police 'Poppins' de Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+html, body{
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+
+#titre-album {
+   text-transform: lowercase;
+   position: absolute;
+}
+
+h4{
+   font-size: 30px;
+   color: black;
+}
+
+h4 span{
+   font-weight: 400;
+   font-size: larger;
+}
+#logo-container {
+   display: flex;
+   align-items: center; 
+  }
+ 
+ #logo-image {
+    width: 50px;
+    height: auto;
+    margin-right: 30px;
+ }
+ 
+nav{
+   display: flex;
+   border-style: hidden;
+   justify-content: space-between;
+   padding: 5px 30px;
+   align-items: center;
+   box-shadow: 19px 9px 50px -3px rgba(0,0,0,0.1);
+   background: whitesmoke;
+   height: 90px;
+}
+
+#navig-button{
+   margin-top: 20px;
+}
+ul li{
+   list-style-type: none;  
+   display: inline;
+   margin-right: 25px;
+}
+ul li a{
+   text-decoration: none;
+   color: #8b4513;
+   transition: 0.3s;
+}
+
+ul li a:hover{
+   color: #b48f51;
+}
+
+#cart-section {
+   display: flex;
+   align-items: center;
+}
+
+#cart-button { 
+   color: white;
+   text-decoration: none;
+   border: 2px solid;
+   margin: 30px;
+   padding: 7px;
+   border-radius: 30px;
+   background: #8b4513;
+   border-color: black;
+   transition: 0.3s;
+   border-color: #8b4513;
+}
+
+#cart-button:hover{
+   background: #b48f51;
+   color: black;
+   border-color: #b48f51;
+}
+
+.avatar {
+   object-fit: cover;
+   width: 50px;
+   height: 50px;
+   border: 2px solid;
+   border-radius: 50%   ;
+}
+
+h1{
+   text-align: center;
+   font-size: 50px;
+   margin-top: 90px;
+   color: #3f2107;
+}
+
+#product {
+   display: flex;
+   align-items: center;
+}
+
+.highlight-products {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   flex-direction: column;
+   border: 3px solid #3f2107;
+   width: 150px;
+   margin: 35px;
+   background: white;
+   border-radius: 30px;
+   padding: 45px;
+   background: #b48f51;
+}
+.name-price{
+   display: flex;
+   align-items: baseline;
+}
+.product-name{
+   margin-right: 70px;
+   font-size: 23px;
+}
+.product-pictures{
+   object-fit: cover;
+   width: 150px;
+   height: 150px;
+   background: #b48f51;
+   border: 2px solid #3f2107;
+   border-radius: 30px;
+   padding: 20px;
+}
+.price{
+   font-size: 15px;
+   text-align: center;
+}
