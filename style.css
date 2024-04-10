@@ -5,42 +5,51 @@ html, body{
    font-family: 'Poppins', sans-serif;
    margin: 0;
    padding: 0;
+   align-content: space-between;
+   text-align: center;
    text-decoration: none;
+   background-image: url(https://wallpapercave.com/wp/G3XZ1A1.jpg);
+   background-position: 100%;
+   color: white;
 }
 
-#titre-album {
-   text-transform: lowercase;
-   position: absolute;
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; 
 }
 
 h4{
    font-size: 30px;
-   color: black;
+   color: white
 }
 
 h4 span{
    font-weight: 400;
    font-size: larger;
+   color: white;
 }
 #logo-container {
    display: flex;
    align-items: center; 
-  }
+   
+}
  
  #logo-image {
     width: 50px;
     height: auto;
     margin-right: 30px;
+    border-radius: 100%;
  }
- 
+
 nav{
    display: flex;
    border-style: hidden;
    justify-content: space-between;
-   padding: 5px 30px;
+   padding: 10px 30px;
    align-items: center;
-   box-shadow: 19px 9px 50px -3px rgba(0,0,0,0.1);
-   background: whitesmoke;
+   box-shadow: 19px 9px 50px -3px rgba(15, 14, 14, 0.1)
    height: 90px;
 }
 
